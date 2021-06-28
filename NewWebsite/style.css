@@ -1,0 +1,125 @@
+.navbar{
+    background: black;
+    padding: 1rem 8rem;
+    z-index: 1000;
+}
+.navbar .navbar-brand{
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbar .navbar-brand span{
+    color: yellow;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: white;
+    font-size: 1.1rem;
+    padding: 0 0.8rem 0 5.6rem;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: red;
+    background: white;
+    border-radius: 30px;
+}
+
+#navbarSupportedContent > form > button{
+    border-radius: 30px;
+    padding: 0.4rem 0.8rem;
+    font-weight: 700;
+    background: white;
+}
+.mid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.mid video{
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero{
+    position: relative;
+}
+.hero h2{
+    font-family:sans-serif;
+    font-weight: 900;
+    padding-bottom: 0.5rem;
+    
+}
+.hero span{
+    color: yellow;
+}
+.hero p{
+    font-size: 17px;
+    width: 50%;
+    letter-spacing: 0.1rem;
+    
+}
+.hero a{
+    border-radius: 30px;
+    padding: 0.4rem 0.8rem;
+    font-weight: 700;
+    background: white;
+    text-decoration: none;
+   
+}
+
+
+
+.aboutmore{
+    background: black;
+    margin-top: 10px;
+}
+.aboutmore .text h6{
+color: lightseagreen;
+}
+.aboutmore .text h2{
+    color: chartreuse;
+}
+.aboutmore .text p{
+    font-weight: 700;
+    color: coral;
+}
+.aboutmore .imgsec{
+    border-radius: 20%;
+}
+.aboutmore .text a{
+    border-radius: 30px;
+    padding: 0.4rem 0.8rem;
+    font-weight: 700;
+    background: red;
+    text-decoration: none;
+}
+.services{
+    background: black;
+ padding-bottom: 5px;
+
+}
+.services .one{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    border-radius: 20px;
+}
+body>footer{
+    background: black;
+    margin-top: 10px;
+}
+.img-fluid {
+    width: 243px;
+    max-width: 100%;
+    height: 60px;
+}

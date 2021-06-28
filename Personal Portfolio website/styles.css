@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.navbar{
+    height: 80px;
+    background: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    
+}
+.navbar .container .logo a{
+    font-size: 20px;
+    color: white;
+    margin-top: 10%;
+
+}
+
+.navbar .menu li a{
+  
+    margin: 15px 0;
+    font-size: 17px;
+    display: inline-block;
+}
+.infopage{
+   
+    background: url(images/slider-image2.jpg)no-repeat center;
+    height: 80vh;
+   
+
+}
+.infopage .info_content{
+    color: red;
+    font-size: 30px;
+    font-weight: 1000px;
+    padding-left: 30%;
+    padding-top: 13%;
+ 
+    
+
+}
+.infopage .info_content span{
+    color: rgb(89, 0, 255);
+    font-weight: 800px;
+}
+.infopage .info_content a{
+   
+    color: rgb(42, 165, 93);
+   padding-left: 10%;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 15%;
+}
+.infopage .info_content span #hmpage{
+    padding-top: 9%;
+ 
+}
